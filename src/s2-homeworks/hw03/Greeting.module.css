@@ -5,6 +5,7 @@
 }
 
 .error {
+    color: #cc0000;
 }
 
 .input {
@@ -14,18 +15,26 @@
 }
 
 .errorInput {
+    border: 1px solid red;
 }
 
 .button {
+    padding: 2px 5px ;
+    background-color: #0066CC;
+    color: white;
+    border-radius: 3px;
 }
 
 .button:focus {
 }
 
 .button:active {
+    background-color: deeppink;
 }
 
 .button:disabled {
+    background-color: #0066CC;
+    opacity: 0.5;
 }
 
 .text {
